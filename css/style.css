@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Mason Chronicles', sans-serif;
+    src: url('../webfonts/4026-webfont.woff2') format('woff2'),
+         url('../webfonts/4026-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 header {
   padding-top: 60px;
   padding-bottom: 90px;
@@ -64,6 +74,7 @@ nav {
 }
 .title {
   font-size: 76px;
+  font-family: 'Mason Chronicles', sans-serif;
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -274,6 +285,7 @@ a:focus {
   color: #9d2929;
   text-decoration: none;
 }
+
 /*==========  Mobile First Method — Bootstrap Grid ==========*/
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
