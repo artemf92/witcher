@@ -76,6 +76,7 @@ nav {
   padding: 13px 12px;
   background-color: rgba(157, 41, 41, 0.5);
   border-radius: 50%;
+  transition: 0.2s ease-out;
 }
 .btn--play a {
   display: block;
