@@ -137,7 +137,7 @@ nav {
   border: 5px solid transparent;
   border-radius: 8px;
   transition: 0.2s ease-out;
-  background-image: url('../../img/card-image.png');
+  background-image: url('../img/card-image.png');
   background-size: contain;
   background-repeat: no-repeat;
   /* .series--num */
@@ -181,7 +181,7 @@ nav {
   padding: 13px;
 }
 .seriesTwo {
-  background-image: url(../../img/card-image2.png);
+  background-image: url('../img/card-image2.png');
 }
 .swiper-container {
   max-width: 358px;
