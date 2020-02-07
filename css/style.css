@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Mason Chronicles', sans-serif;
-    src: url('../webfonts/4026-webfont.woff2') format('woff2'),
-         url('../webfonts/4026-webfont.woff') format('woff');
+    font-family: 'mason_chroniclesregular';
+    src: url('mason_chronicles.woff2') format('woff2'),
+         url('mason_chronicles.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -74,7 +74,7 @@ nav {
 }
 .title {
   font-size: 76px;
-  font-family: 'Mason Chronicles', sans-serif;
+  font-family: 'MasonChronicles', arial;
   padding-top: 20px;
   padding-bottom: 10px;
 }
