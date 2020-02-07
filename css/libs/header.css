@@ -1,0 +1,48 @@
+header {
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+nav {
+  padding-left: 21px;
+}
+.nav-link {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.socials a {
+  padding-right: 21px;
+}
+.socials a:last-of-type {
+  padding-right: 0;
+}
+.fab {
+  color: #fff;
+  font-size: 19px;
+}
+.fab:hover,
+.fab:focus {
+  color: #9d2929;
+}
+.navbar {
+  background-color: transparent;
+}
+.nav-logo {
+  margin-right: 68px;
+}
+.socials i {
+  margin-right: 25px;
+}
+.socials i:last-child {
+  margin-right: 0;
+}
+@media (min-width: 992px) {
+  .socials {
+    position: absolute;
+    top: 14px;
+    right: 0;
+  }
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #9d2929;
+}

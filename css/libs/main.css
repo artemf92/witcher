@@ -1,0 +1,158 @@
+.main {
+  padding: 67px 15px 68px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding: 0 0 120px;
+  }
+}
+.content {
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+.category {
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+.title {
+  font-size: 76px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.btn--play {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 116px;
+  height: 116px;
+  padding: 13px 12px;
+  background-color: rgba(157, 41, 41, 0.5);
+  border-radius: 50%;
+}
+.btn--play a {
+  display: block;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background-color: #9d2929;
+}
+.btn--play a:hover,
+.btn--play a:focus {
+  background-color: #c53434;
+  width: 88px;
+  height: 88px;
+  transform: translate(2px, 2px);
+}
+.btn--play img {
+  margin: 28px 27px 30px 33px;
+  z-index: 10;
+}
+.trailer {
+  display: none;
+}
+@media (min-width: 768px) {
+  .trailer {
+    display: block;
+  }
+}
+.rating--count {
+  padding-left: 9px;
+}
+.description {
+  font-size: 14px;
+  line-height: 21px;
+}
+.btn-danger {
+  width: 260px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #9d2929;
+  margin: 40px 0 40px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .btn-danger {
+    margin-bottom: 85px;
+  }
+}
+.series--wrapper .row {
+  margin-left: 0;
+}
+.series {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 124px;
+  height: 113px;
+  border: 5px solid transparent;
+  border-radius: 8px;
+  transition: 0.2s ease-out;
+  background-image: url('../../img/card-image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* .series--num */
+  /* .series--title */
+}
+.series:hover,
+.series:focus {
+  transform: translateY(-10px);
+}
+.series--num {
+  font-size: 10px;
+  width: 43px;
+}
+.series--title {
+  font-size: 14px;
+  width: 120px;
+  font-weight: 700;
+}
+@media (min-width: 576px) {
+  .series:nth-of-type(2) {
+    display: block;
+    display: flex;
+  }
+}
+.arrow {
+  margin-top: 46px;
+}
+.arrow img {
+  fill: #fff;
+}
+.series--wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.series {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 164px;
+  height: 113px;
+  padding: 13px;
+}
+.seriesTwo {
+  background-image: url(../../img/card-image2.png);
+}
+.swiper-container {
+  max-width: 358px;
+  margin-left: 0;
+}
+.sliders {
+  width: 234px;
+  position: relative;
+}
+@media (min-width: 576px) {
+  .sliders {
+    width: 419px;
+  }
+}
+.arrow {
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  transform: translateX(50%);
+}
