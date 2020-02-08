@@ -268,7 +268,7 @@ footer {
   color: #49484d;
   padding-left: 15px;
 }
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .footer--copyright {
     padding-left: 0;
   }
