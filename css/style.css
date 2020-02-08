@@ -1,11 +1,14 @@
 @font-face {
-    font-family: 'mason_chroniclesregular';
-    src: url('mason_chronicles.woff2') format('woff2'),
-         url('mason_chronicles.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'MasonChronicles', serif;
+  src: url('MasonChronicles.woff');
+  src: url('MasonChronicles.eot?#iefix') format('embedded-opentype'),
+       url('MasonChronicles.woff') format('woff'),
+       url('MasonChronicles.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 
 
 header {
@@ -74,7 +77,9 @@ nav {
 }
 .title {
   font-size: 76px;
-  font-family: 'MasonChronicles', arial;
+  font-family: 'MasonChronicles', serif;
+  font-weight: normal;
+  font-style: normal;
   padding-top: 20px;
   padding-bottom: 10px;
 }
