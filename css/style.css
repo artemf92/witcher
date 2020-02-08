@@ -222,11 +222,25 @@ nav {
   transform: translateX(50%);
 }
 footer {
-  padding-bottom: 37px;
+  padding: 0 15px 37px;
 }
+
 @media (min-width: 720px) {
   footer {
     padding-bottom: 20px;
+  }
+}
+
+.footer--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (min-width: 768px) {
+   .footer--wrapper {
+    flex-direction: row;
+    align-items: flex-end;
   }
 }
 .footer--nav {
